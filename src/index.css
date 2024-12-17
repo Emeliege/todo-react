@@ -74,3 +74,13 @@ button {
     width: auto;
   }
 }
+
+@media (max-width: 589px) {
+  .container {
+    width: 300px;
+  }
+
+  input {
+    width: 200px;
+  }
+}
