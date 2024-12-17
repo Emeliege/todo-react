@@ -62,12 +62,14 @@ button {
   padding: 7px 20px;
   margin: 10px;
   font-family: sans-serif;
+  width: 400px;
 }
 
 .close {
   padding: 5px 10px;
   cursor: pointer;
 }
+
 
 @media (max-width: 590px) {
   input {
@@ -77,10 +79,15 @@ button {
 
 @media (max-width: 589px) {
   .container {
-    width: 300px;
+    width: 350px;
+    padding: 20px;
   }
 
   input {
-    width: 200px;
+    width: 300px;
+  }
+
+  .todo {
+    width: 300px;
   }
 }

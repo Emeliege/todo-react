@@ -58,7 +58,7 @@ const TodoxToggle = () => {
       <ul className="todos-list">
         {todos.map(({ text, id }) => (
           <li key={id} className="todo">
-            <span>{text}</span>
+            <p>{text}</p>
             <button className="close" onClick={() => removeTodo(id)}>
               X
             </button>
